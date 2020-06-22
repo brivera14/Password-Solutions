@@ -29,16 +29,16 @@ https://brivera14.github.io/Password-Solutions/
 ![Lowercase](https://user-images.githubusercontent.com/66097407/85254852-2aa2db00-b42f-11ea-931b-137b545ed4f5.png)
 
 4. Next It will prompt "Would you like to use numbers?". User should choose OK or CANCEL.
-![Numbers](https://user-images.githubusercontent.com/66097407/85254971-5920b600-b42f-11ea-93c2-c4cb16592507.png)
+![Numbers](https://user-images.githubusercontent.com/66097407/85255853-152eb080-b431-11ea-9049-3ca357bdb483.png)
 
 5. Then It will prompt "Would you like to use special characters?". User should choose OK or CANCEL.
-![Special Character](https://user-images.githubusercontent.com/66097407/85255062-8705fa80-b42f-11ea-8f2f-578f9e6052bf.png)
+![Special Character](https://user-images.githubusercontent.com/66097407/85255911-31325200-b431-11ea-9852-9d8e04b9c8fc.png)
 
-* Note: Is user click on cancel in every criteria, It will prompt and alert "You must select at least one character type!"
-![Message alert](https://user-images.githubusercontent.com/66097407/85255171-c2082e00-b42f-11ea-8284-c6afd8bd685c.png)
+* Note: Is user click on cancel in every criteria, It will prompt an alert "You must select at least one character type!"
+![Message Alert](https://user-images.githubusercontent.com/66097407/85255998-59ba4c00-b431-11ea-99a8-8477bdeebe43.png)
 
-6. Once user choose the criteria, user will get the password.
-![Password](https://user-images.githubusercontent.com/66097407/85255268-eebc4580-b42f-11ea-98a6-85757c4c8d0a.png)
+6. Once user choose the criteria, user will get the password. (Example requesting a 25 character password with all the criteria options.)
+![Password](https://user-images.githubusercontent.com/66097407/85256068-7d7d9200-b431-11ea-82a0-29c0869b64f2.png)
 
 
 ## Contribution
