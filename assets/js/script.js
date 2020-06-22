@@ -1,6 +1,6 @@
 // Assignment code here
 
-// Created function that allowes ask for the length that user desires.
+// Created function that allows to ask for the length that user desires.
 var length = function() {
   var pwlength = Number(prompt("How many characters would you like your password to be?"));
   // set the loop that allows to restrict the lengh range requested by the client.
@@ -11,7 +11,7 @@ var length = function() {
 return pwlength;
 }
 
-// stablished function that allowes to ask the criteria that user desires like uppercase, lowercase, numbers and special characters.
+// stablished function that allows to ask the criteria that user desires like uppercase, lowercase, numbers and special characters.
 var getCharChoice = function() {
   // variable that storaga the user requests
   var charchoice = "";
