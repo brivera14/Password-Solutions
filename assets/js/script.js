@@ -11,7 +11,7 @@ var length = function() {
 return pwlength;
 }
 
-// stablished functions that allowes to ask the criteria that user desires like uppercase, lowercase, numbers and special characters.
+// stablished function that allowes to ask the criteria that user desires like uppercase, lowercase, numbers and special characters.
 var getCharChoice = function() {
   // variable that storaga the user requests
   var charchoice = "";
@@ -35,22 +35,35 @@ var getCharChoice = function() {
   if (confirmSymbols) {
     charchoice += '!@#$%^&*=-_|';
   }
+  // force the user to validate at least one option of the criterias.
+  if (!confirmLowerCase && !confirmUpperCase && !confirmNumbers && !confirmSymbols){
+    alert("You must select at least one character type!");
+    return getCharChoice();
+  }
 return charchoice;
 }
 
-
+// Initialized the process of generating the password.
+function generatePassword() {
+  // Start giving to password a value of 0.
+  var password = "";
+  // Call to action Length function.
+  pwlength = length();
+  // Call to action Charchoice function.
+  charchoice = getCharChoice();
+  // Create for loop to generate random password according to the specifications.
+  for (var i = password.length; i < pwlength; i++) password += charchoice[Math.floor(Math.random() * charchoice.length)];
+  // Stop the function and give the result
+  return password;
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
-
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
